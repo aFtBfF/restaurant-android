@@ -6,4 +6,8 @@
 
 在java/bjtu/practice/app/restaurant/model里是各数据实体类。
 
+在res/drawable里是用到的图片资源。
 
+在res/layout里是各布局文件。
+
+在values里是用到的colors、string等属性。
