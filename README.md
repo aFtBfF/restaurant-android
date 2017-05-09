@@ -10,4 +10,4 @@
 
 在res/layout里是各布局文件。
 
-在values里是用到的colors、string等属性。
+在values里是用到的color、string等属性。
