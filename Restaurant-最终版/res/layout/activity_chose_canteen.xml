@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:id="@+id/containerLayout"
+    tools:context="com.example.shoppingcart.ShoppingCartActivity">
+
+    <include layout="@layout/layout_mian_chose_canteen"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:text="我的订单"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_myOrder"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
